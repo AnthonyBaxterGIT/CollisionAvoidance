@@ -33,3 +33,25 @@ void loop() {
     Serial.println(servo1Pos);
   }
 }
+
+
+
+/* bool Direction
+ 
+ if Direction == 0 
+ 
+ servo1Pos = servo1Pos +1
+ 
+ 
+ if Direction == 1 
+ 
+servo1Pos = servo1Pos -1 
+
+if servo1Pos => 180
+direction =1
+ 
+ if servo1Pos <= 0
+direction =0
+
+servo_1.write(servo1Pos);
+*/
